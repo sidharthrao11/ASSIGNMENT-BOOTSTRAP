@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .questionA{
+            background-color: rgb(220, 161, 239);
+            font-size: 20px;     
+            padding: 10px;
+            font-style: bold;
+            font-weight: bold;
+           }
+        .questionB{
+            background-color: rgb(166, 216, 235);
+            font-size: 20px;     
+            padding: 10px;
+            font-style: bold;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="questionA">
+        Q.3 What are the default Bootstrap text settings? <br>
+        Ans :- Bootstrap provides default text settings to ensure consistent and visually appealing typography across your website. <br>
+         These settings include font size, line height, font weight, and font family. <br>  <br>
+         1.Font Size:Bootstrap sets the base font size to 16 pixels (1rem) for the body element. <br>
+           It uses relative units like rem and em for font sizes to ensure scalability and responsiveness. <br> <br>
+         2.Font Family:The default font family for Bootstrap is the system font stack, which varies depending on the user's operating system and browser. <br>
+         Bootstrap encourages the use of a simple and readable font stack, such as "Helvetica Neue", Helvetica, Arial, sans-serif. <br><br>
+         3.Font Weight:Bootstrap applies a default font weight of 400 (normal) for most text elements. <br>
+         It provides utility classes like .font-weight-bold to apply a font weight of 700 (bold) when needed. <br> <br>
+         4.Line Height:Bootstrap sets the default line height to 1.5 for improved readability and spacing between lines of text. <br>
+         This line height ensures that text is well-spaced and easy to read across different screen sizes. <br> <br>
+         5.Text Color:Bootstrap sets the default text color to #212529 for body text. <br>
+         It provides utility classes for text color manipulation, such as .text-primary, .text-danger, etc., to apply different colors to text elements. <br> <br>
+         6.Text Alignment:Bootstrap aligns text to the left (text-left), center (text-center), right (text-right), or justify (text-justify) by default. <br>
+         You can use these utility classes to align text as needed within your layout. <br> <br>
+
+    </div>
+
+    <div class="questionB">
+        Q.4  What do you know about the Bootstrap Grid System? <br>
+        Ans:- The Bootstrap Grid System is a responsive, mobile-first grid system that allows developers to create complex layouts with ease.  <br>
+        It is based on a 12-column grid layout, which provides a flexible and powerful way to design responsive websites. Here's what you need to <br>
+        know about the Bootstrap Grid System:- <br> <br>
+
+        1. **12-column Grid:** <br>
+           - The grid system is divided into 12 equal columns, allowing for easy division and alignment of content. <br>
+           - Columns are placed within rows, and the total sum of column widths in a row should not exceed 12. <br><br><br>
+        
+        2. **Responsive Layout:** <br>
+           - Bootstrap's grid system is mobile-first, meaning it's designed to work on mobile devices first and then scale up to larger screens. <br>
+           - Columns automatically adjust their width and layout based on the screen size, ensuring a responsive design.  <br><br><br>
+        
+        3. **Containers:** <br>
+           - The grid system should be placed within containers (`container` or `container-fluid` classes) to provide padding and center the content on the page. <br>
+           - Containers create a fixed-width or full-width wrapper around the grid layout.  <br><br><br>
+        
+        4. **Rows:** <br>
+           - Rows (`row` class) are horizontal wrappers for columns. <br>
+           - Columns should always be placed within rows to ensure proper alignment and spacing.  <br><br><br>
+        
+        5. **Column Classes:** <br>
+           - Bootstrap provides a set of predefined classes to create columns of various widths. <br>
+           - Classes such as `col-`, `col-sm-`, `col-md-`, `col-lg-`, and `col-xl-` are used to define column widths at different breakpoints (extra small, small, medium, large, and extra large). <br>
+           - For example, `col-md-6` creates a column that spans 6 out of 12 columns on medium-sized screens and above.  <br><br><br>
+        
+        6. **Offset and Nesting:** <br>
+           - Bootstrap allows for offsetting columns (`offset-`) to create additional spacing between <columns class="br"></columns>
+           - Columns can also be nested within other columns to create more complex layouts.  <br><br><br>
+        
+        7. **Alignment and Ordering:** <br>
+           - Bootstrap provides utility classes for aligning columns vertically (`align-items-*`, `align-self-*`, `align-content-*`) and horizontally (`justify-content-*`). <br>
+           - Columns can also be reordered using `order-*` classes.  <br><br><br>
+        
+        8. **Utility Classes:** <br>
+           - Bootstrap offers additional utility classes for quickly adjusting column widths, hiding/showing columns, and controlling visibility at different screen sizes.  <br><br><br>
+        
+        By leveraging the Bootstrap Grid System, developers can create responsive and flexible layouts that adapt to various screen sizes and devices, resulting in a better user experience. <br>
+    </div> 
+
+<div class="questionA">
+    Q.5 What is the difference between Bootstrap 4 and Bootstrap 5? <br>
+    Ans:- Bootstrap 5, released in November 2020, introduced several changes and improvements compared to Bootstrap 4. <br>
+     Here's a summary of the key differences between Bootstrap 4 and Bootstrap 5:- <br>
+
+    
+    1.jQuery Dependency: - <br>
+    -> Bootstrap 4 relied on jQuery for some of its JavaScript functionality, such as dropdowns, modals, and tooltips. <br>
+    ->Bootstrap 5 has removed the jQuery dependency, making it lighter and more modern. JavaScript plugins are now written in Vanilla JavaScript or rely on third-party libraries like Popper.js. <br><br>
+
+    2.Customization Options:- <br>
+    ->Bootstrap 5 offers enhanced customization options compared to Bootstrap 4. <br>
+    ->The new version provides utilities for customizing colors, spacing, typography, and borders, allowing developers to easily tailor the design to their needs without needing to write custom CSS. <br> <br>
+
+    3.Improved Grid System:- <br>
+    ->Bootstrap 5 retains the 12-column grid system from Bootstrap 4 but introduces new features and improvements. <br>
+    ->The grid system has been enhanced with vertical spacing utilities (gy-* classes) and column gap support, providing more flexibility in creating layouts. <br><br>
+
+    4.Responsive Font Sizes:- <br>
+    ->Bootstrap 5 introduces a new responsive font sizing feature using rem units, allowing font sizes to scale with the viewport width. <br>
+    This feature helps improve accessibility and readability on different devices and screen sizes. <br><br>
+
+    5.Dropped Internet Explorer Support:- <br>Bootstrap 5 no longer supports Internet Explorer (IE) 10 and 11, focusing on modern browsers and reducing compatibility issues. <br>
+    This change enables the use of modern CSS features and improves overall performance. <br><br>
+
+   6. New Components and Utilities:- <br>
+    ->Bootstrap 5 introduces several new components and utilities, including off-canvas navigation, accordion component, list group customization, and improved form validation styles. <br>
+    ->It also provides updated and redesigned versions of existing components for a more modern look and feel. <br> <br>
+    7.Documentation and Examples:- <br>
+    ->Bootstrap 5 documentation has been revamped and improved, providing clearer explanations, updated examples, and better organization. <br>
+    ->The documentation also includes more guidance on best practices and accessibility considerations. <br><br><br>
+    Overall, Bootstrap 5 builds upon the foundation of Bootstrap 4 while addressing user feedback, improving performance, and modernizing the framework for the web development community. <br>
+     It offers enhanced customization options, improved documentation, and a more lightweight and flexible approach to building responsive websites. <br>
+</div>
+
+<div class="questionB">
+   Q.6 What is a Button Group, and what is the class for a basic Button Group? <br>
+   Ans:- A Button Group is a UI component used in graphical user interfaces to group related buttons together. <br>
+   This grouping is typically done to visually associate the buttons and indicate that they belong to the same set <br>
+   or perform similar actions. Button groups are commonly used in toolbars, forms, or any interface where multiple related actions need to be presented. <br> <br>
+   The class for a basic Button Group depends on the programming framework or library you're using. For example, in web development with HTML and CSS, you might use the div element <br>
+   to create a button group and style it accordingly. In frameworks like Bootstrap, there might be specific classes for creating button groups, such as btn-group. <br><br>
+   In graphical user interface (GUI) libraries like Swing for Java or Tkinter for Python, there are classes specifically designed for creating button groups. In Swing, for instance, <br>
+   the ButtonGroup class is used to manage a set of buttons so that only one button in the group can be selected at a time. In Tkinter, you might use a combination of Radiobutton widgets <br>
+   to achieve similar functionality within a button group. <br><br>
+</div>
+
+<div class="questionA">
+   Q.7 How can you use Bootstrap to make thumbnails? <br>
+   Ans:- To create thumbnails using Bootstrap, you can use the thumbnail class along with the appropriate markup structure. Here's a basic example of how you can create thumbnails using Bootstrap:- <br>
+
+<div class="container">
+   <h2>Thumbnail Examples</h2>
+   <div class="row">
+     <div class="col-md-4">
+       <div class="thumbnail">
+         <img src="https://via.placeholder.com/200" alt="Thumbnail Image">
+         <div class="caption">
+           <h3>Thumbnail label</h3>
+           <p>Description of the thumbnail</p>
+         </div>
+       </div>
+     </div>
+     <div class="col-md-4">
+       <div class="thumbnail">
+         <img src="https://via.placeholder.com/200" alt="Thumbnail Image">
+         <div class="caption">
+           <h3>Thumbnail label</h3>
+           <p>Description of the thumbnail</p>
+         </div>
+       </div>
+     </div>
+     <div class="col-md-4">
+       <div class="thumbnail">
+         <img src="https://via.placeholder.com/200" alt="Thumbnail Image">
+         <div class="caption">
+           <h3>Thumbnail label</h3>
+           <p>Description of the thumbnail</p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ 
+We use the container class to create a responsive container. <br>
+Inside the container, we create a row (row class). <br>
+Inside the row, we create three columns (col-md-4 class, for medium-sized screens and above). <br>
+ You can adjust the column sizes based on your layout needs. <br>
+Within each column, we create a thumbnail div. <br>
+Inside each thumbnail div, we place an image (img tag) and a caption (caption class) with a heading and description. <br><br>
+
+</div>
+
+<div class="questionB">
+   Q.8 In Bootstrap 4, what is flexbox? <br>
+   Ans:- In Bootstrap 4, flexbox is a powerful layout system that is used to create flexible and responsive layouts for web pages. <br>
+    Flexbox, short for "Flexible Box Layout," is a CSS3 layout mode that provides an efficient way to distribute space and align items <br>
+     within a container, even when their size is unknown or dynamic. <br><br>
+     Flexbox in Bootstrap 4 allows you to easily create complex layouts with a minimal amount of CSS code. It provides a set of CSS classes <br>
+      that you can apply to parent containers to control the layout and alignment of their child elements. <br><br>
+     <h2>Bootstrap 4 include:-</h2> 
+     1.Flexible Layouts <br>
+     2. Alignment <br>
+     3. Ordering <br>
+     4. Responsive Design <br>
+     5. Easy to Use <br><br>
+
+</div>
+
+<div class="questionA">
+   Q.9 How can one create an alert in Bootstrap? <br>
+   Ans:- To create an alert in Bootstrap, you can use the predefined alert component. Here's a basic example of how you can create an alert:- <br>
+
+<div class="alert alert-primary" role="alert">
+   This is a primary alert—check it out!
+ </div>
+ 
+ <div class="alert alert-secondary" role="alert">
+   This is a secondary alert—check it out!
+ </div>
+ 
+ <div class="alert alert-success" role="alert">
+   This is a success alert—check it out!
+ </div>
+ 
+ <div class="alert alert-danger" role="alert">
+   This is a danger alert—check it out!
+ </div>
+ 
+ <div class="alert alert-warning" role="alert">
+   This is a warning alert—check it out!
+ </div>
+ 
+ <div class="alert alert-info" role="alert">
+   This is an info alert—check it out!
+ </div>
+ 
+ <div class="alert alert-light" role="alert">
+   This is a light alert—check it out!
+ </div>
+ 
+ <div class="alert alert-dark" role="alert">
+   This is a dark alert—check it out!
+ </div>
+ 
+</div>
+<!-- Bootstrap JS and dependencies (optional for alerts) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+<div class="questionB">
+   Q.10 What is a bootstrap card and how would you create one? <br>
+   Ans :- Create the Card Structure: Use the div element with the class .card to create the basic structure of the card. <br>
+   Inside this div, you'll add elements for the card header, body, footer, and any other content you want to include. <br><br>
+
+      Add Content: Within the card div, you can add various elements like h5 for the card title, p for the card text, img for images, and so on. <br>
+      
+      Style as Needed: Bootstrap provides various utility classes and predefined styles that you can apply to customize the appearance of your card. <br>
+       You can adjust spacing, alignment, colors, and more using these classes. <br>
+      
+      Here's a simple example of how you might create a Bootstrap card:- <br>
+
+      <div class="card" style="width: 18rem;">
+         <img src="../ASSIGNMENT-BOOTSTRAP/new/Elon_Musk.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Elon Musk</h5>
+           <p class="card-text">businessman and investor.</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+         </div>
+       </div>
+       
+  
+
+   
+</div>
+
+</body>
+</html>
